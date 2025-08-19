@@ -1,0 +1,14 @@
+.callout {
+  border-left: 4px solid #007acc;
+  background: #f5f8fa;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+}
+.callout-note { border-color: #007acc; }
+.callout-warning { border-color: #e6a700; background: #fffbe6; }
+.callout-danger { border-color: #d32f2f; background: #fff0f0; }
+.callout-title {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
