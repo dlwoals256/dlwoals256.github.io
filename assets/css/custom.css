@@ -4,16 +4,14 @@
   background: #f5f8fa;
   color: #222;
   padding: 1em;
-  margin: 1.5em 0;
+  margin: 1em 0;
   border-radius: 6px;
 }
-.callout-note { border-color: #007acc; }
-.callout-warning { border-color: #e6a700; background: #fffbe6; }
-.callout-danger { border-color: #d32f2f; background: #fff0f0; }
-.callout-title {
-  font-weight: bold;
-  margin-bottom: 0.5em;
-}
+.callout-title { font-weight: bold; margin-bottom: 0.5em; }
+.callout-note .callout-title    { color: #007acc; }
+.callout-warning .callout-title { color: #e6a700; }
+.callout-danger .callout-title  { color: #d32f2f; }
+
 
 /* 다크 모드 */
 @media (prefers-color-scheme: dark) {
@@ -22,10 +20,8 @@
     color: #eee;
     border-left-color: #3399ff;
   }
-  .callout-note { border-color: #3399ff; }
-  .callout-warning { border-color: #ffd700; background: #3a2f00; }
-  .callout-danger { border-color: #ff6666; background: #3a2323; }
-  .callout-title {
-    color: #fff;
-  }
+  .callout-title { color: #fff; }
+  .callout-note .callout-title    { color: #3399ff; }
+  .callout-warning .callout-title { color: #ffd700; }
+  .callout-danger .callout-title  { color: #ff6666; }
 }
