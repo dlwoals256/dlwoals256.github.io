@@ -73,7 +73,13 @@ git push https://github.com/dlwoals256/dlwoals256.github.io main
 
 {% capture callout_content %}
 
-`fetch`와 `pull`은 무슨 차이가 있을까요? 
+`fetch`와 `pull`은 무슨 차이가 있을까요? 결론부터 말하면 `fetch` + `rebase` = `pull` 입니다.
+
+원격 브랜치가 있고, 로컬 브랜치를 만들기 위해 `clone` 이후 새로운 브랜치 `dev`를 만들었다고 합시다. 저는 여기에 이것저것 작업한 것을 커밋하였습니다. 그리고 원래 브랜치 `main`에서 새로운 변경사항이 커밋되어서 제 브랜치와 충돌(conflict)이 발생한다고 합시다. 그 상황에서 `pull`을 하게 되면 `error: Your local changes to the following files would be overwritten by merge:` 와 같은 메세지를 보게 됩니다.  
+
+즉, `pull`은 아예 로컬 브랜치를 원격 브랜치로 흡수시키는 거고, `fetch`는 이런 상황에서 원격 브랜치의 변경사항을 다운로드 할 수 있게 해줍니다. 그냥 다운로드만 합니다.  
+
+이후 충돌 사항들을 정리하고 원본 브랜치와 병합하고 싶다면 `rebase`를 합니다.
 
 {% endcapture %}
 
