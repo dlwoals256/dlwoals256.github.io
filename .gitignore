@@ -28,3 +28,6 @@ package-lock.json
 _posts/header.md
 _posts/templates
 _posts/trashbin
+
+# Posts
+_posts/temp/*
