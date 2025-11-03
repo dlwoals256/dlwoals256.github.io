@@ -14,12 +14,12 @@ order: 4
 
 # Career
 
-## AI Engineer in AI Talent Force corp.
+## AI Engineer in AI Talent Force corp. (2026. 9. ~)
 
 아카츠키 그룹 자회사 AI Talent Force의 AI 엔지니어 직무를 수행합니다.
 
 # 주요 실적
 
-## ETRI 2025 네트워크 트래픽 해커톤 최종 7위
+## ETRI 2025 네트워크 트래픽 해커톤 최종 7위 (2025. 8.)
 
 본 해커톤은 주어진 패킷 및 플로우 데이터를 통해 트래픽에 관한 정보를 추론하는 모델을 설계하는 대회입니다.
