@@ -10,6 +10,13 @@ order: 4
 - 모두를 위한 오렌지3 빅데이터분석 공동저자 (2024. 12.)
 - TOPCIT(소프트웨어 역량 검정) 수준 3(612점) (2025. 5.)
 - GDGoC PKNU branch core member (2025. 7. ~)
+- AI Talent Force AI engineer (2026. 9. ~)
+
+# Career
+
+## AI Engineer in AI Talent Force corp.
+
+아카츠키 그룹 자회사 AI Talent Force의 AI 엔지니어 직무를 수행합니다.
 
 # 주요 실적
 
